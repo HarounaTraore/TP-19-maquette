@@ -34,11 +34,7 @@ h1{
     margin-bottom: 20px;
     font-size: 35px;
 }
-p{
-    text-align: center;
-
-
-}
+p{ text-align: center;}
 
 form{
     position: relative;
@@ -72,7 +68,6 @@ justify-content: space-between;
 }
 label, .password a{
     margin-top:10px ;
-    margin-bottom: -9px;
     margin-left: 10px;
     font-size: 13px;
 }
@@ -94,7 +89,6 @@ button{
     display: flex;
     font-size: 14px;
     justify-content: space-between;
-    /* margin-bottom: -5px; */
 }
 a{text-decoration: none; color: var(--blue);}
 

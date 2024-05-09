@@ -13,20 +13,23 @@
     font-family:  Arial, sans-serif;
 }
 body {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: var(--bgcolog);
     
 }
 .login{
+    background-color: var(--white);
     position: relative;
-    background-color: var(--bgcolog);
-    padding-right: 0%;
     display: flex;
-    align-items: center;
-   width: 100vw;
-    height: 100vh;
+    /* align-items: center; */
+   width: 800px;
+    height: 500px;
+    /* padding: 20px; */
+    border-radius: 15px;
 
 }
 h1{
@@ -34,29 +37,36 @@ h1{
     margin-bottom: 20px;
     font-size: 35px;
 }
-p{ text-align: center;}
+p{
+    text-align: center;
+    font-size: 14px;
+
+
+}
 
 form{
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
     justify-content: center;
     padding: 0 80px;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 .img-right{
-    width: 900px;
-    height: 100%;
+    width: 400px;
+    height: 500px;
+    border-bottom-right-radius:  15px;
+    border-top-right-radius: 15px;
 }
 .email{
-    margin: 60px 0 -5px 10px;
+    margin: 23px 0 -5px 10px;
     
 }
 input{
-    border-radius: 15px;
+    border-radius: 5px;
     border: 1px solid var(--black50);
-    padding:  10px 30px;
+    padding:  8px 10px;
     margin: 10px 0;
 
 }
@@ -68,27 +78,29 @@ justify-content: space-between;
 }
 label, .password a{
     margin-top:10px ;
+    margin-bottom: -9px;
     margin-left: 10px;
     font-size: 13px;
 }
 
 button{
     width: max-content;
-    height:  40px;
-    padding: 2px 15px;
-    border-radius: 15px;
+   
+    padding: 5px 5px;
+    border-radius: 5px;
     border: var(--black50) 1px solid;
     background-color: var(--white);
-    font-size: 14px;
+    font-size: 12px;
     font-weight: bold;
     margin: 5px;
     
 }
 .password {
-    padding: 10px 15px 0px 15px ;
+    padding: 10px 15px 0px 1px ;
     display: flex;
     font-size: 14px;
     justify-content: space-between;
+    /* margin-bottom: -5px; */
 }
 a{text-decoration: none; color: var(--blue);}
 
@@ -119,16 +131,35 @@ button:hover{
     content: "";
     background-color: var(--black50);
     height: 2px;
-    width: 170px;
+    width: 130px;
     left: 86px;
-    bottom: 120px;
+    bottom: 131px;
 }
 .or::after{
     position: absolute;
     content: "";
     background-color: var(--black50);
     height: 2px;
-    width: 170px;
+    width: 130px;
     right: 86px;
-    bottom: 120px;
+    bottom: 131px;
+}
+
+.or1::before{
+    position: absolute;
+    content: "";
+    background-color: var(--black50);
+    height: 2px;
+    width: 130px;
+    left: 86px;
+    bottom: 118px;
+}
+.or1::after{
+    position: absolute;
+    content: "";
+    background-color: var(--black50);
+    height: 2px;
+    width: 130px;
+    right: 86px;
+    bottom: 118px;
 }

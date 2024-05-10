@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realisation d'une maquette</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contenaire">
+        <form action="">
+            <h2 class="get-start">Get Start Now</h2>
+           
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required placeholder="Enter your name " />
+            <label for="email">Email address</label>
+            <input type="email" name="email" id="email"  placeholder="Enter your email" required />
+
+            <div class="password-forget">
+                <label for="password">Password</label><a href="#">foget password</a>
+            </div>
+            <input type="password" name="password" id="password"  placeholder="Enter your password" required />
+
+            <div class="remember">
+                <input type="checkbox" name="checkbox" id="checkbox" />
+                <label for="checkbox">Remember for 30 days</label>
+            </div>
+            <input type="submit" name="submit" value="Login" id="submit" />
+            <p class="separator or">Or</p>
+
+            <div class="sign-with">
+                <button><img src="resources/google.svg" alt="Sign in width google">Sign in width google</button>
+                <button><img src="resources/apple.svg" alt="Sign in width apple">Sign in width Apple</button>
+            </div>
+            <p>Have an account <a href="login.html">Sign In</a></p>
+        </form>
+        <img src="resources/auth-img.png" alt="" class="auth-img" />
+    </section>
+</body>
+</html>
